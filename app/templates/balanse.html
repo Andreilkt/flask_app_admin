@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Все пользователи
+{% endblock %}
+
+{% block content %}
+<h1 class="mb-5">Пользователи</h1>
+
+<div class="card-columns">
+    <div class="row">
+        {% for user in users %}
+        <div class="col-md-3">
+            <div class="card mb-3">
+
+                <div class="card-body">
+                    <p class="card-text">Название: {{ user.name }}</p>
+                    <p class="card-text">Название: {{ user.username }}</p>
+                    <p class="card-text">Баланс: {{ user.balance }}</p>
+                    <p class="card-text">Ставка комиссии: {{ user.commission_rate }}</p>
+                    <p class="card-text">Вебхук: {{ user.URL_webhook }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        <table border=1 style="cellpadding: 5; cellspacing:5 ">
+
+            <tr align=center>
+
+
+                <td width="140"><a href="{{ url_for('profile') }}">В профиль</a></td>
+            </tr>
+        </table>
+
+
+    </div>
+</div>
+
+{% endblock %}
