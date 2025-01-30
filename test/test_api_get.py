@@ -1,3 +1,5 @@
+import allure
+
 from test.conftest import api_client
 
 #тест на вывод транзакции

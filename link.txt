@@ -1,3 +1,8 @@
+
+bearer
+https://learn.microsoft.com/ru-ru/entra/external-id/customers/tutorial-web-app-python-flask-sign-in-sign-out?tabs=windows
+
+
 pytest
 https://learnscripting.org/api-testing-writing-tests-for-restful-apis-using-pytest/
 https://jsonplaceholder.typicode.com/guide/
