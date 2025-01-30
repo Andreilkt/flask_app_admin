@@ -1,8 +1,7 @@
-import pytest
-from conftest import api_client
+from test.conftest import api_client
 
-
-class TestTransaction:
+#тест на вывод транзакции
+class TestTransaction_get:
 
     def test_get_transaction(self, api_client):
         url = "http://127.0.0.1:5000/transactions/1"

@@ -1,7 +1,7 @@
 pytest
 https://learnscripting.org/api-testing-writing-tests-for-restful-apis-using-pytest/
 https://jsonplaceholder.typicode.com/guide/
-
+https://sky.pro/wiki/python/sozdanie-rest-api-klienta-na-python/
 
 Flask Виктор Комлев
 https://victor-komlev.ru/frejmvork-flask/
