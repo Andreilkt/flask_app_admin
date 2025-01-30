@@ -10,4 +10,4 @@ class TestTransaction:
 
         assert response.status_code == 200
         data = response.json()
-        assert data["status"] == "Создана"
+        assert data["status"] == "Создана" and data["commission"] == 10 and data["sum"] == 1000
